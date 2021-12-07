@@ -2,6 +2,7 @@
 
 Business College Helsinki React class assignment.
 Studied controlled components and working with forms.
+Posting data to json-server with Axios.
 
 ## Techonologies used
 
@@ -10,13 +11,9 @@ Studied controlled components and working with forms.
 - JS
 - ReactJS
 
-## Screenshots
+## Screenshot
 
-Form and view:
-![Screenshot](/src/img/forms_screenshot1.png?raw=true"Screenshot_1")
-
-Popup:
-![Screenshot](/src/img/forms_screenshot2.png?raw=true"Screenshot_1")
+![Screenshot](/src/img/forms_screenshot.png?raw=true"Screenshot")
 
 ## Authors and acknowledgement
 

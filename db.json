@@ -1,0 +1,20 @@
+{
+  "notes": [
+    {
+      "firstname": "Noora",
+      "lastname": "Testing",
+      "phone": "123456",
+      "role": "Student",
+      "message": "hello",
+      "id": 1
+    },
+    {
+      "firstname": "Minna",
+      "lastname": "Testing",
+      "phone": "352351",
+      "role": "Student",
+      "message": "Hello there!",
+      "id": 2
+    }
+  ]
+}

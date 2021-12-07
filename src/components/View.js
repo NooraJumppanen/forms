@@ -1,18 +1,18 @@
 import React from 'react';
 
-const View = (props) => {
+const View = ({firstname, lastname, phone, role, message}) => {
     return (
-        <>
-            <h1>This is your input:</h1>
-            <div className="lines"></div>
-
+        <> 
             <div className="view">
-            <p>First name <span className="viewtext"> {props.firstname}</span></p>
-            <p>Last name <span className="viewtext"> {props.lastname}</span></p>
-            <p>Phone number <span className="viewtext"> {props.phone}</span></p>
-            <p>Role <span className="viewtext"> {props.role}</span></p>
-            <p>Message <span className="viewtext"> {props.message}</span></p>
-        </div>
+            <div className="dottedline"></div>
+            <div className="lines"></div>
+            <h2>This is your input:</h2>
+            <p>First name <span className="viewtext"> {firstname}</span></p>
+            <p>Last name <span className="viewtext"> {lastname}</span></p>
+            <p>Phone number <span className="viewtext"> {phone}</span></p>
+            <p>Role <span className="viewtext"> {role}</span></p>
+            <p>Message <span className="viewtext"> {message}</span></p>
+            </div>
         </>
     );
 };
